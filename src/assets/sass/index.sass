@@ -1,0 +1,53 @@
+@import 'fonts/font'
+@import 'utils/reset'
+@import 'utils/vars'
+
+html
+  line-height: $mainLineHeight
+  font-size: $mainFontSize
+  color: $mainFontColor
+  height: 100%
+
+body
+  margin: 0
+  padding: 0
+  font-family: $mainFont
+  font-size: 1.6rem
+  font-weight: $mainFontWeight
+
+*,
+*:before,
+*:after
+  box-sizing: border-box
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+  margin: 0
+
+a
+  text-decoration: none
+
+ul,
+li
+  margin: 0
+  padding: 0
+  list-style-type: none
+
+section,
+.section
+  position: relative
+  padding: 40px 0
+
+.container
+  width: 100%
+  flex: 0 0 auto
+  position: relative
+  margin: 0 auto
+  max-width: $desktopWidth
+
+// // Modules:
+@import 'nav/nav'
