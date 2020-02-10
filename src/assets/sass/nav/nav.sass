@@ -1,13 +1,48 @@
 #nav
-  background: red
-  font-family: ToyotaDisplay
+  background: $header-nav-bg
+  font-family: $mainFont
   text-transform: uppercase
   padding-top: 23px
   padding-bottom: 14px
-.nav 
 
+.nav 
   display: flex
   justify-content: space-between
+
 .nav-menu
 
+  .router-link-exact-active
+    position: relative
+    z-index: 1
+    // transform: skewX(-45deg)
+    // background: red
+    &::after
+      position: absolute
+      content: ""
+      top: -4px
+      left: 0
+      right: 0
+      bottom: 0
+      z-index: -1
+
+      margin: -8px -15px;
+
+      transform: skewX(-20deg)
+      background-image: $nav-active-bg
+    span
+      opacity: 1  
+      
+  a 
+    margin-right: 45px
+    color: $default-color
+    letter-spacing: 0.75px
+    font-size: 15px;
+    span
+      opacity: 0.6
+
+
 .nav-logo
+  img 
+    position: absolute
+    top: -27px
+    right: 0px
