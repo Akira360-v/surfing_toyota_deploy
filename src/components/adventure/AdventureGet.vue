@@ -3,7 +3,7 @@
     <div class="container">
       <div class="gets">
         <div class="gets__scpoll">
-          <perfect-scrollbar>
+          <scroll ref="scroll" :options="options" :watch-options="watcher" class="red__scroll_left">
             <div class="gets__head">
               <figure>
                 <img src="@/assets/img/adventure/a.png" alt="A">
@@ -48,23 +48,9 @@
                 Проехав полевыми дорогам, на которых вы оцените преимущества полного привода RAV4 Adventure, вы окажетесь на Халактырском пляже.
               </p>
             </div>
-          </perfect-scrollbar>
+          </scroll>
         </div>
       </div>
     </div>
   </div>
 </template>
-
-<script>
-import { PerfectScrollbar } from 'vue2-perfect-scrollbar'
-export default {
-  components: {
-    PerfectScrollbar 
-    
-  },
-  
-}
-</script>
-
-<style src="vue2-perfect-scrollbar/dist/vue2-perfect-scrollbar.css"/>
-/* <style src="@/assets/sass/css/scrollbar/vue2-perfect-scrollbar.css"/> */
