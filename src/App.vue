@@ -23,7 +23,7 @@
               Участники
             </span>
           </router-link>
-          <router-link to="/about3">
+          <router-link to="/adventure">
             <span>
               RAV4 Adventure
             </span>
