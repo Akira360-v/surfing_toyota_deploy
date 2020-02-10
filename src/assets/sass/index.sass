@@ -15,6 +15,7 @@ body
   font-size: 1.6rem
   font-weight: $mainFontWeight
 
+
 *,
 *:before,
 *:after
@@ -49,7 +50,26 @@ section,
   margin: 0 auto
   max-width: $desktopWidth
   padding: 0 20px
-
+body
+  &::-webkit-scrollbar 
+    width: 0px //12
+    height: 0px //12
+  &::-webkit-scrollbar-track-piece
+    background:rgba(0,0,0,0)
+  &::-webkit-scrollbar-thumb:vertical
+    height: 10px
+    background: #272c35
+  &::-webkit-scrollbar-thumb:vertical:hover
+    background: #71CA55
+  &::-webkit-scrollbar-thumb:horizontal
+    width: 10px
+    background: #272c35
+  &::-webkit-scrollbar-thumb:horizontal:hover
+    background: #71CA55
 // // Modules:
 @import 'nav/nav'
+@import 'adventure/adventure'
 @import 'adventure/adventure__header'
+@import 'adventure/adventure__start'
+@import 'adventure/adventure__soft'
+@import 'adventure/adventure__get'
