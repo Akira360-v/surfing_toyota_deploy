@@ -3,14 +3,34 @@
     <div id="nav">
       <div class="container nav">
         <div class="nav-menu ">
-          <router-link to="/">Главная</router-link>
-          <router-link to="/about">extreme–карта</router-link>
-          <router-link to="/about">КОНКУРС</router-link>
-          <router-link to="/about">Участники</router-link>
-          <router-link to="/about">RAV4 Adventure</router-link>
+          <router-link to="/">
+            <span>
+              Главная
+            </span>
+          </router-link>
+          <router-link to="/about">
+            <span>
+              extreme–карта
+            </span>
+          </router-link>
+          <router-link to="/about1">
+            <span>
+              КОНКУРС
+            </span>
+          </router-link>
+          <router-link to="/about2">
+            <span>
+              Участники
+            </span>
+          </router-link>
+          <router-link to="/about3">
+            <span>
+              RAV4 Adventure
+            </span>
+          </router-link>
         </div>
         <div class="nav-logo">
-          asdas
+          <img src="./assets/img/nav/Toyota_LOGOTYPE.png" alt="">
         </div>
       </div>
     </div>
