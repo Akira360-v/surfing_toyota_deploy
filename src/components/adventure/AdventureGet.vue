@@ -54,3 +54,12 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  name: 'AdventureGet',
+}
+</script>
+
+<style>
+
+</style>
