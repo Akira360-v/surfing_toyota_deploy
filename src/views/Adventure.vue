@@ -5,6 +5,8 @@
         <AdventureStart />
         <AdventureSoft />
         <AdventureGet />
+        <AdventureExtreme />
+        <AdventureLook />
       </div>
   </div>
 </template>
@@ -15,6 +17,8 @@ import AdventureHeader from '@/components/adventure/AdventureHeader.vue'
 import AdventureStart from '@/components/adventure/AdventureStart.vue'
 import AdventureSoft from '@/components/adventure/AdventureSoft.vue'
 import AdventureGet from '@/components/adventure/AdventureGet.vue'
+import AdventureExtreme from '@/components/adventure/AdventureExtreme.vue'
+import AdventureLook from '@/components/adventure/AdventureLook.vue'
 
 export default {
   name: 'Adventure',
@@ -22,7 +26,9 @@ export default {
     AdventureHeader,
     AdventureStart,
     AdventureSoft,
-    AdventureGet
+    AdventureGet,
+    AdventureExtreme,
+    AdventureLook
   }
 }
 </script>

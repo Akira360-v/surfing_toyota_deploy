@@ -40,9 +40,6 @@
 <script>
 export default {
   name: 'AdventureHeader',
-//   props: {
-//     msg: String
-//   }
 }
 </script>
 

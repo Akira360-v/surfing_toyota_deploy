@@ -6,14 +6,13 @@
   padding-bottom: 14px
   position: fixed
   width: 100%
-  z-index: 1
+  z-index: 99
 
 .nav 
   display: flex
   justify-content: space-between
 
 .nav-menu
-
   .router-link-exact-active
     position: relative
     z-index: 1
@@ -25,14 +24,11 @@
       right: 0
       bottom: 0
       z-index: -1
-
       margin: -8px -15px;
-
       transform: skewX(-20deg)
       background-image: $nav-active-bg
     span
-      opacity: 1  
-      
+      opacity: 1    
   a 
     margin-right: 45px
     color: $default-color
