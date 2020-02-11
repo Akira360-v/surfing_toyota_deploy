@@ -7,6 +7,7 @@
         <AdventureGet />
         <AdventureExtreme />
         <AdventureLook />
+        <AdventureExtremes />
       </div>
   </div>
 </template>
@@ -19,6 +20,7 @@ import AdventureSoft from '@/components/adventure/AdventureSoft.vue'
 import AdventureGet from '@/components/adventure/AdventureGet.vue'
 import AdventureExtreme from '@/components/adventure/AdventureExtreme.vue'
 import AdventureLook from '@/components/adventure/AdventureLook.vue'
+import AdventureExtremes from '@/components/adventure/AdventureExtremes.vue'
 
 export default {
   name: 'Adventure',
@@ -28,7 +30,8 @@ export default {
     AdventureSoft,
     AdventureGet,
     AdventureExtreme,
-    AdventureLook
+    AdventureLook,
+    AdventureExtremes
   }
 }
 </script>
