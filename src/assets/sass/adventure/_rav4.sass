@@ -1,8 +1,14 @@
 .adventure__rav4
   background: $black-color url(../../assets/img/adventure/test-drive.jpg) no-repeat
   padding-top: 110px
-  padding-bottom: 140px
+  padding-bottom: 139px
+  @media screen and (min-width: 1366px)
+    background-size: cover
+    background-position-y: 50%
 
+.rav4
+  position: relative
+  z-index: 1
 .rav4__title
   color: $default-color
   font-family: $mainFontTextBold
